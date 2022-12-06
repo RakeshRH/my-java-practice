@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("pls enter the length and breath");
+		Scanner sc=new Scanner(System.in);
+		int l= sc.nextInt();
+		int b= sc.nextInt();
+		int p=2*(l+b),a=l*b;
+		System.out.println("the perimeter is  "+p);
+		System.out.println("thr area is"+a);
+	}
+}
